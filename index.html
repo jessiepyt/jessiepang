@@ -33,9 +33,6 @@
 	<section id="home" class="pfblock-image screen-height">
         <div class="home-overlay"></div>
 		<div class="intro">
-			<div class="rpic">
-				<img src="profile.jpg"/>
-			</div>
 			<div class="start"> Hello, my name is Jessie Pang. </div>
 			<div class="start">I am a </div>
 			<h1> Data Journalism Student </h1>
@@ -100,6 +97,7 @@
 
 					<div class="pfblock-header wow fadeInUp">
 						<h2 class="pfblock-title">I am a slash</h2>
+						<div class="rpic"><img src="assets/images/profile.jpg"/></div>
 						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle">
 							 Reporter/Blogger/Front-end developer/Content Creator/Traveler 
@@ -496,7 +494,15 @@
     <!-- Scroll to top end-->
 
 	<!-- Javascript files -->
-        <style>.async-hide { opacity: 0 !important} </style>
+		<style>.async-hide { opacity: 0 !important} </style>
+		<style>
+        .rpic img{
+            width:200px;height:200px;
+			border-radius: 50%;
+            border-width: 5px;
+            border-style: solid;
+        }
+		</style>
 <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
 h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
