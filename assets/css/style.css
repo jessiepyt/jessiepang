@@ -20,7 +20,7 @@ img {
 }
 
 a {
-	color: #E7746F;
+	color: #666;
 }
 
 a:hover {
@@ -476,7 +476,7 @@ textarea.form-control {
 #footer span{
     animation-iteration-count: infinite;
     -webkit-animation-iteration-count: infinite;
-    color: #ff5252;
+    color: #666;
 }
 
 .social-links {
@@ -548,7 +548,7 @@ textarea.form-control {
 .navbar-custom .navbar-nav > li.active a {
 	background: none;
 	outline: 0;
-	color: #E7746F;
+	color: #666;
 }
 
 .navbar-custom .navbar-brand {
@@ -559,7 +559,7 @@ textarea.form-control {
 
 .navbar-custom .dropdown-menu {
 	border: 0;
-	border-top: 2px solid #E7746F;
+	border-top: 2px solid #666;
 	border-radius: 0;
 }
 
@@ -603,7 +603,7 @@ textarea.form-control {
 .scroll-up a:hover,
 .scroll-up a:active {
 	background-color: rgba(235, 235, 235, .8);
-	color: #e7746f;
+	color: #666;
 }
 
 /* ---------------------------------------------- /*
@@ -803,7 +803,7 @@ textarea.form-control {
 /*---------------*/
 
 figure.effect-bubba {
-	background: #9e5406;
+	background: #666;
 }
 
 figure.effect-bubba img {
@@ -922,7 +922,7 @@ figure.effect-bubba:hover p {
 
 .cbp-qtprogress {
 	position: absolute;
-	background: #FF5252;
+	background: rgb(236, 0, 0);
 	height: 1px;
 	width: 0%;
 	top: 0;
